@@ -3,7 +3,7 @@
     <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <title>Портал потавщиков | Закупки у единственноого поставщика</title>
+    <title>Инструкции | Котировочные сессии</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/cat_session.css">
     <meta charset="utf-8">
@@ -49,35 +49,48 @@
             <div class="collapse" id="collapse_info">
                <p class="annotation col-lg-12" style="font-size: 30px; margin-top: 30px;">Отлично! Теперь сделайте ставку </p><a name="collapse_info"></a>
                <img src="images/session.PNG" alt="" style="margin-left: 100px;">
-               <a class="btn btn-danger" href="#zatemnenie">Cделать ставку</a>
+               <a class="btn btn-danger btn_1" data-toggle="collapse" href="#Panalcollapse" role="button" aria-expanded="false" aria-controls="Panalcollapse">Cделать ставку</a>
             </div>
         </div>
     </div>
     </section>
-    <footer>
+    <section class="collapse" id="Panalcollapse">
+        <div class="container" >
+              <div class="row">
+                <p class="annotation col-lg-12" style="font-size: 30px; margin-top: 30px;">Осталось только подтвердить!</p>
+                 <div class="panel col-lg-12">
+                     <p class="centered" style="margin-top: 20px; font-weight: 600;font-size: 25px; height: 25px;">Сделайте вашу ставку</p>
+                     <p class="centered" style="margin-top: 150px; font-weight: 600;font-size: 25px; height: 25px;">190 руб</p>
+                     <a class="centered" style="margin-top: 20px; font-weight: 600;font-size: 30px;
+	                 background-color:red; cursor: pointer">
+                    <p>Подтвердить</p></a>
+                 </div>
+                 <button class="btn btn-danger" style="MAR">Начать использовать<br> портал поставщиков</button>
+              </div>
+        </div>
+    </section>
+   <footer>
         <div class="container">
             <div class="row">
-                <div class="col-lg-5 f_info">
+                <!--<div class="col-lg-5 f_info">
                     <div class="text">
                     <span class="copyright">©2017-2020</span><span class="version">v20171217</span>
                     </div>
-                </div>
-                <div class="col-lg-6 ml-auto centered social">
-                    <p>Мы в соцсетях</p>  
-                </div>
+                    
+                </div>-->
+                <!--<div class="col-lg-6 ml-auto centered social">
+                    <p>Мы в соцсетях</p>
+                </div>-->
+                <img src="images/footer_menu.PNG" class="col-lg-12" alt="">
+                <img src="images/footer.PNG" alt="">
             </div>
         </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script src="timer.js"></script>
-    <div id="zatemnenie">
-      <div id="okno">
-        Lorem ipsum dolor sit.<br>
-        <a href="#" class="close">Закрыть окно</a>
-      </div>
-    </div>
+<!--    <script src="timer.js"></script>-->
+    
  
     </body>
 </html>
